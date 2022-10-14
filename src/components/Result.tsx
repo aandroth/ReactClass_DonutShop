@@ -9,8 +9,8 @@ interface Props {
 const Result = ({donut}: Props) => {
   return (
     <li className='Result'>
-        <h2>{donut.name}</h2>
-        <Link to={`/gifs/${encodeURIComponent(donut.id)}`}>
+        <Link to={`/${encodeURIComponent(donut.id)}`}>        
+          <h2>{donut.name}</h2>
         </Link>
     </li>
   )
