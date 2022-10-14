@@ -9,11 +9,12 @@ interface Props {
 const ResultsList = ({donuts}: Props) => {
   return (
     <div className='ResultsList'>
-        <ul>
-            {donuts.map((donut)=> (
-                <Result donut={donut} key={donut.id}/>
-            ))}
-        </ul>
+      <h1>Donuts</h1>
+      <ul>
+          {donuts.map((donut)=> (
+              <Result donut={donut} key={donut.id}/>
+          ))}
+      </ul>
     </div>
   )
 };

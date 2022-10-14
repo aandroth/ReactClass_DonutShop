@@ -10,7 +10,7 @@ const Result = ({donut}: Props) => {
   return (
     <li className='Result'>
         <Link to={`/${encodeURIComponent(donut.id)}`}>        
-          <h2>{donut.name}</h2>
+          <p>{donut.name}</p>
         </Link>
     </li>
   )

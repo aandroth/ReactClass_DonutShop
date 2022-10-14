@@ -4,4 +4,6 @@ export default interface DonutDetails {
     calories: string;
     photo: string;
     extras: string[];
+    id: string;
+    price: number;
 }
